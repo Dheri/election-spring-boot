@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+html {
+	height: 100%;
+}
+
+.assign-center {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.navbar {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	background-color: #bbb;
+}
+
+.top-left {
+	flex: 50%;
+}
+
+.top-right {
+	text-align: center;
+}
